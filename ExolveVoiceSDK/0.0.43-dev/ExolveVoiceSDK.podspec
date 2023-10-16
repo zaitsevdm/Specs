@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name         = "ExolveVoiceSDK"
   spec.version      = "0.0.43-dev"
-  spec.source       = { :http => "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/0.0.43-dev/ExolveVoiceSDK.framework.zip" }
-  spec.ios.vendored_framework = "ExolveVoiceSDK.framework"
+  spec.source       = { :http => "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/0.0.43-dev/ExolveVoiceSDK.xcframework.zip" }
+  spec.ios.vendored_framework = "ExolveVoiceSDK.xcframework"
   spec.summary      = "Mobile SDK to provide calls functionality using Exolve platform"
   spec.description  = <<-DESC
   Exolve provides VoIP capabilities to your application."
